@@ -31,7 +31,7 @@ export default function AdvisorPage() {
       setMessages([initialMessage])
       setChatStarted(true)
     }
-  }, [chatStarted])
+  }, [chatStarted, initialMessage])
 
   const handleSendMessage = async (content) => {
     const userMessage = {
