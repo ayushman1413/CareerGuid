@@ -203,7 +203,7 @@ export function LeaderboardPanel({ user }) {
       <Card className="bg-gradient-to-r from-primary/10 to-secondary/10">
         <CardHeader>
           <CardTitle>Your Performance</CardTitle>
-          <CardDescription>How you're doing compared to others</CardDescription>
+          <CardDescription>How you&apos;re doing compared to others</CardDescription>
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
