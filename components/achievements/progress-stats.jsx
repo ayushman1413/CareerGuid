@@ -113,7 +113,7 @@ export function ProgressStats({ user }) {
             </div>
             <div className="text-center p-4 bg-orange-50 rounded-lg">
               <Flame className="w-8 h-8 text-orange-500 mx-auto mb-2" />
-              <p className="text-sm font-medium text-orange-800">You're on fire! 🔥</p>
+              <p className="text-sm font-medium text-orange-800">You&apos;re on fire! 🔥</p>
               <p className="text-xs text-orange-600">Keep up the great work to maintain your streak</p>
             </div>
           </CardContent>
