@@ -119,7 +119,7 @@ export function LoginForm({ onToggleMode }) {
               Forgot your password?
             </Button>
             <p className="text-sm text-muted-foreground">
-              Don't have an account?{" "}
+              Don&apos;t have an account?{" "}
               <Button variant="link" className="p-0 h-auto" onClick={onToggleMode}>
                 Sign up
               </Button>
