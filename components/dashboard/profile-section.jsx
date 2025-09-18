@@ -205,7 +205,7 @@ export function ProfileSection({ user, onUserUpdate }) {
         <Card>
           <CardHeader>
             <CardTitle>Interests & Skills</CardTitle>
-            <CardDescription>What you're passionate about and good at</CardDescription>
+            <CardDescription>What you&apos;re passionate about and good at</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
             {/* Interests */}

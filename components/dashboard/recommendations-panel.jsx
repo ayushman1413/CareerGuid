@@ -151,7 +151,7 @@ export function RecommendationsPanel({ user }) {
               <TrendingUp className="w-5 h-5" />
               Trending Opportunities
             </CardTitle>
-            <CardDescription>Don't miss these time-sensitive opportunities</CardDescription>
+            <CardDescription>Don&apos;t miss these time-sensitive opportunities</CardDescription>
           </CardHeader>
           <CardContent>
             <div className="space-y-4">
