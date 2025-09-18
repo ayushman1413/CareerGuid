@@ -12,26 +12,25 @@ export default function AdvisorPage() {
   const [isLoading, setIsLoading] = useState(false)
   const [chatStarted, setChatStarted] = useState(false)
 
-  const initialMessage = {
-    id: "welcome",
-    type: "ai",
-    content:
-      "Hello! I'm your AI Career Advisor. I'm here to help you explore career paths, understand different fields, and make informed decisions about your future. What would you like to know about?",
-    timestamp: new Date(),
-    suggestions: [
-      "What career suits my interests?",
-      "Tell me about engineering careers",
-      "How do I choose between science and commerce?",
-      "What are high-paying career options?",
-    ],
-  }
-
   useEffect(() => {
+    const initialMessage = {
+      id: "welcome",
+      type: "ai",
+      content:
+        "Hello! I'm your AI Career Advisor. I'm here to help you explore career paths, understand different fields, and make informed decisions about your future. What would you like to know about?",
+      timestamp: new Date(),
+      suggestions: [
+        "What career suits my interests?",
+        "Tell me about engineering careers",
+        "How do I choose between science and commerce?",
+        "What are high-paying career options?",
+      ],
+    }
     if (!chatStarted) {
       setMessages([initialMessage])
       setChatStarted(true)
     }
-  }, [chatStarted, initialMessage])
+  }, [chatStarted])
 
   const handleSendMessage = async (content) => {
     const userMessage = {

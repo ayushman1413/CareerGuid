@@ -124,7 +124,7 @@ export function ProgressTracking({ user }) {
             </div>
             <Progress value={overallProgress} className="h-3" />
             <p className="text-sm text-muted-foreground">
-              Keep going! You're making great progress on your career journey.
+              Keep going! You&apos;re making great progress on your career journey.
             </p>
           </div>
         </CardContent>
@@ -171,7 +171,7 @@ export function ProgressTracking({ user }) {
         <Card>
           <CardHeader>
             <CardTitle>Achievements</CardTitle>
-            <CardDescription>Badges and milestones you've unlocked</CardDescription>
+            <CardDescription>Badges and milestones you&apos;ve unlocked</CardDescription>
           </CardHeader>
           <CardContent>
             <div className="space-y-4">
